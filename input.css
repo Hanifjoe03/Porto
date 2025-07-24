@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'inter', sans-serif;
+}
+.hamburger-line {
+  @apply w-6 h-1 my-1 bg-gray-800 rounded transition-all;
+}
+.hamburger {
+    @apply flex flex-col items-center justify-center cursor-pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
